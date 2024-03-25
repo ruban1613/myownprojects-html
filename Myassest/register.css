@@ -1,0 +1,204 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+    height: 100vh;
+    width: 100wh;
+    background-color: #84eb84;
+   
+    
+
+}
+
+header{
+    background-color:#c1E1c1;
+    padding:10px;
+    /* color: #RRFFBB; */
+    color:black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+}
+
+/*  header(logo) */
+.logo{
+    font-weight: bolder;
+    color:black;
+    font-size:xx-large;
+    letter-spacing: 3px;
+    margin: 5px;
+    text-decoration: none;
+    }
+
+    a .logo{
+        text-decoration: none;
+    }    
+    
+    
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+    
+     header ul li{
+        margin: 30px;
+    }
+    
+    
+    ul li a{
+     color: black;
+     text-decoration: none;
+     font-weight: bold;
+    
+    }
+    
+   
+    
+    
+    /* header>button */
+    button{
+        padding: 10px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: none;
+        color: rgb(12, 12, 12);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    button:hover{
+        padding: 10px;
+        font-weight: 600;
+        background-color:#84eb84;
+        border: none ;
+        box-shadow: 05px 5px 3px #21343b;
+        color: #feffff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .header-img{
+        height: 150px;
+        width: 150px;
+        margin-left: 0;
+       
+    }
+    
+    /* sign form Design */
+
+
+    .form-design{
+        width: 30rem;
+        height: 35rem;
+        display: flex;
+        flex-direction: column;
+        
+        background-color: rgb(255, 255, 255,0.06);
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+        border-radius: 30px;
+        margin-bottom: 110px;
+        margin-top: 80px;
+        margin-left: 600px;
+    }
+    .form-design::before{
+        content: "";
+        position:absolute;
+        bottom:1%;
+        left:30%;
+        width: 200px;
+        height: 200px;
+        background:transparent ;
+        border-radius: 50%;
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+     
+    }
+    
+    .form-design::after{
+        content: "";
+        position:absolute;
+        top:3%;
+        right:50%;
+        width: 200px;
+        height: 200px;
+        background:transparent ;
+        border-radius: 50%;
+        box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+     
+    }
+    
+    
+    
+    .card-h1{
+     font-size: 40px;
+     text-align: center;
+     color: white;
+     text-shadow: 2px 2px 4px rgba(0,0,0.2);
+     letter-spacing: 3px;
+     margin-bottom: 6px;
+     margin-top: 5px;
+    }
+    
+    label{
+        font-size: 20px;
+        color: white;
+        margin-left: 7%;
+        font-weight: normal;
+        text-shadow: 2px 2px 4px rgba(0,0,0.3);
+    
+    }
+    
+    input{
+    margin: 5px auto;
+    width: 85%;
+    margin-bottom: 8%;
+    border: none;
+    outline: none;
+    height: 5%;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    }
+    
+    .btn-style{
+        width: 50%;
+        margin: 3% auto;
+        background-color: transparent;
+        text-shadow: 2px 2px 4px rgba(0,0,0.3);
+        color: white;
+        border: none;
+        font-size: 20px;
+    
+    }
+    
+    .card-a{
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    /* icon style */
+    .section-social-icon{
+        margin: 3px;
+        padding: 5px;
+        align-items: center;
+        
+        justify-content: center;
+    
+    }
+    .section-social-icon li > a i.fa-instagram:hover{
+        color:purple;
+       
+    }
+    
+    .section-social-icon li > a i.fa-twitter:hover{
+        color:rgb(52, 129, 223);
+    
+    }
+    

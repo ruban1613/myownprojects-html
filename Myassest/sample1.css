@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,125,200..1000;1,6..12,125,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+}
+
+header{
+    background-color:#558dca;
+    padding:20px;
+    /* color: #RRFFBB; */
+    color:#FFF ;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*  header(logo) */
+header a{
+    text-decoration: none;
+}
+
+header a span{
+    text-decoration:none;
+    font-size:xx-large;
+    font-weight: bold;
+    
+   
+}
+
+/*  header(logo) */
+.logo{
+font-weight: bolder;
+color:#022999;
+letter-spacing: 3px;
+}
+
+.header-para{
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+ header ul li{
+    margin: 30px;
+}
+
+
+ul li a{
+ color: #022999;
+ text-decoration: none;
+ font-weight: bold;
+
+}
+
+ul li a:hover{
+    color:#c8eff9;
+    text-decoration-color: #12bdff;
+    text-decoration:underline;
+   
+   }
+
+   .header-img{
+    height: 150px;
+    width: 150px;
+    margin-left: 0;
+   
+}
+
+/* header>button */
+button{
+    padding: 10px;
+    font-weight: bold;
+    background-color:#f27d24;
+    border: 1px solid #f27d24 ;
+    color: #12bdff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 10px;
+    font-weight: 600;
+    background-color:  #022999;
+    border: 1px solid #022999;
+    box-shadow: 10px 05px 5px 3px #21343b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section-social-icon-btn{
+    margin: 5px;
+}
+
+/* home page */
+section.header-section{
+    background-color:#558dca;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    padding: 20px 90px 0  90px;
+}
+
+.header-section-h2{
+    font-size: 40px;
+}
+
+.header-section-p{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.section-social-icon{
+    margin: 0px;
+    padding:0 5px;
+    height: 35px;
+    width: 10px;
+
+}
+.section-social-icon li > a i.fa-instagram:hover{
+    color:purple;
+
+}
+
+.section-social-icon li > a i.fa-linkedin:hover{
+    color:#FFF;
+
+}
+
+.section-social-icon li > a i.fa-twitter:hover{
+    color:rgb(52, 129, 223);
+
+}
+
+
+
+
+.btn{
+    margin: 5px;
+    padding: 10px;
+}
+
+.header-section-h2 span{
+    color: #022999;
+}
+
+/* login form design */
+
+
+.form-design{
+    width: 25rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255,0.06);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    margin-bottom: 25%;
+}
+.form-design::before{
+    content: "";
+    position:absolute;
+    bottom:1%;
+    left:15%;
+    width: 200px;
+    height: 200px;
+    background:transparent ;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+ 
+}
+
+.form-design::after{
+    content: "";
+    position:absolute;
+    top:3%;
+    right:50%;
+    width: 200px;
+    height: 200px;
+    background:transparent ;
+    border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+ 
+}
+
+
+
+.card-h1{
+ font-size: 40px;
+ text-align: center;
+ color: white;
+ text-shadow: 2px 2px 4px rgba(0,0,0.2);
+ letter-spacing: 3px;
+ margin-bottom: 6px;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+    margin-left: 7%;
+    font-weight: normal;
+    text-shadow: 2px 2px 4px rgba(0,0,0.3);
+
+}
+
+input{
+margin: 5px auto;
+width: 85%;
+margin-bottom: 8%;
+border: none;
+outline: none;
+height: 5%;
+background-color: transparent;
+border-bottom: 1px solid white;
+}
+
+.btn-style{
+    width: 50%;
+    margin: 3% auto;
+    background-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0,0,0.3);
+    color: white;
+    border: none;
+
+}
+
+.card-a{
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
