@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,125,200..1000;1,6..12,125,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-
-
 *{
     margin: 0;
     padding: 0;
@@ -10,20 +8,18 @@
 
 body{
     font-family: "Kanit", sans-serif;
-  
 }
 
 header{
     background-color:#558dca;
     padding:20px;
-    /* color: #RRFFBB; */
+    
     color:#FFF ;
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    
 }
-/*  header(logo) */
+  
 header a{
     text-decoration: none;
 }
@@ -36,7 +32,7 @@ header a span{
    
 }
 
-/*  header(logo) */
+
 .logo{
 font-weight: bolder;
 color:#022999;
@@ -72,7 +68,6 @@ ul li a:hover{
     color:#c8eff9;
     text-decoration-color: #12bdff;
     text-decoration:underline;
-    
    
    }
 
@@ -83,7 +78,7 @@ ul li a:hover{
    
 }
 
-/* header>button */
+
 button{
     padding: 10px;
     font-weight: bold;
@@ -104,6 +99,7 @@ button:hover{
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 section .card-container{
     background-color: #558dca;
@@ -129,6 +125,7 @@ section .card-container{
     padding: 5px auto;
     border: 1px solid;
     box-shadow: 0 8px 32px 0 rgba(31,38,135,.37);
+    margin-bottom: 80px;
    
 }
 .card:not(:hover){
@@ -196,8 +193,6 @@ section .card-container{
  
 }
 
-.btn-card-style{
-    background-color: #558dca;
-}
+
     
     
